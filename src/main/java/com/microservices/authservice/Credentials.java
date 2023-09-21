@@ -1,14 +1,14 @@
 package com.microservices.authservice;
 
-public class AuthenticationRequest {
+public class Credentials {
 
     private String username;
     private String password;
 
-    public AuthenticationRequest() {
+    public Credentials() {
     }
 
-    public AuthenticationRequest(String username, String password) {
+    public Credentials(String username, String password) {
         this.username = username;
         this.password = password;
     }
